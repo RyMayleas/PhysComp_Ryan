@@ -12,6 +12,6 @@ void loop() {
     val = Serial.read();
   }
   if (val != 0)
-  tone(piezoPin, val, 50);
+  tone(piezoPin, val, 120);
   noTone(piezoPin);
 }
